@@ -47,9 +47,8 @@ def webhook():
         "- TA: 87 | FA: 82 | VC Score: 90\n"
         "- Narrative: ZK Rollup, AppChain\n"
         "- Rekomendasi: ✅ Swing Zone + DCA"
+    )
     
-
-            )
 
         elif text.startswith("/wallet"):
     token = text.split(" ")[1].upper() if len(text.split(" ")) > 1 else "?"
